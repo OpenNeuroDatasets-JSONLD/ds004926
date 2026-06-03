@@ -1,0 +1,17 @@
+{
+ "python": "/data/u_dabbagh_software/sct_5.5/python/envs/venv_sct/bin/python3.7",
+ "cwd": "/data/pt_02306/main/data/pain-reliability-spinalcord/derivatives/sub-03/ses-02/anat/preprocessing",
+ "cmdline": "sct_deepseg_sc -i /data/pt_02306/main/data/pain-reliability-spinalcord/derivatives/sub-03/ses-02/anat/preprocessing/sub-03_ses-02_T2w_crop_biascorr_denoise.nii.gz -c t2 -o /data/pt_02306/main/data/pain-reliability-spinalcord/derivatives/sub-03/ses-02/anat/preprocessing/sub-03_ses-02_T2w_seg_raw.nii.gz -qc /data/pt_02306/main/data/pain-reliability-spinalcord/derivatives/sub-03/ses-02/anat/preprocessing/qc -qc-dataset raw",
+ "command": "sct_deepseg_sc",
+ "sct_version": "5.5",
+ "dataset": "raw",
+ "subject": "anat",
+ "contrast": "preprocessing",
+ "fname_in": "sub-03_ses-02_T2w_crop_biascorr_denoise.nii.gz",
+ "orientation": "Axial",
+ "background_img": "raw/anat/preprocessing/sct_deepseg_sc/2024_01_10_160537.313278/bkg_img.png",
+ "overlay_img": "raw/anat/preprocessing/sct_deepseg_sc/2024_01_10_160537.313278/overlay_img.png",
+ "dimension": "420x600",
+ "moddate": "2024-01-10 16:05:38",
+ "qc": ""
+}

@@ -1,0 +1,17 @@
+{
+ "python": "/data/u_dabbagh_software/sct_5.5/python/envs/venv_sct/bin/python3.7",
+ "cwd": "/data/pt_02306/main/data/pain-reliability-spinalcord/derivatives/sub-04/ses-01/anat/preprocessing",
+ "cmdline": "sct_register_to_template -i sub-04_ses-01_T2w_crop_biascorr_denoise.nii.gz -s sub-04_ses-01_T2w_seg.nii.gz -ldisc sub-04_ses-01_T2w_labeled_discs.nii.gz -param step=1,type=seg,algo=centermassrot -c t2 -ofolder /data/pt_02306/main/data/pain-reliability-spinalcord/derivatives/sub-04/ses-01/anat/preprocessing/normalization -qc /data/pt_02306/main/data/pain-reliability-spinalcord/derivatives/sub-04/ses-01/anat/preprocessing/qc/normalization_t2",
+ "command": "sct_register_to_template",
+ "sct_version": "5.5",
+ "dataset": "ses-01",
+ "subject": "anat",
+ "contrast": "preprocessing",
+ "fname_in": "sub-04_ses-01_T2w_crop_biascorr_denoise.nii.gz",
+ "orientation": "Axial",
+ "background_img": "ses-01/anat/preprocessing/sct_register_to_template/2024_01_10_170115.297423/bkg_img.png",
+ "overlay_img": "ses-01/anat/preprocessing/sct_register_to_template/2024_01_10_170115.297423/overlay_img.png",
+ "dimension": "390x600",
+ "moddate": "2024-01-10 17:01:16",
+ "qc": ""
+}
