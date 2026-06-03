@@ -1,3 +1,5 @@
+1.3.1 2026-06-03
+  - Re-uploaded T2w anatomical images after de-identification. Anterior facial structures were manually masked in native space while preserving cervical spinal cord and vertebral anatomy. Manual masking was used because standard pydeface processing removed relevant spinal cord anatomy in these limited-field-of-view cervical spinal cord acquisitions.
 1.3.0 2024-01-19
   - Changing incorrect filenames
 1.2.1 2024-01-11
